@@ -6,4 +6,15 @@ Deploy the model using Flask or FastAPI, push your project to GitHub, host it on
 
 --- 
 
+You can download the data directly from Kaggle or use the script below to download from kaggle hub: 
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("prasad22/healthcare-dataset")
+
+print("Path to dataset files:", path)****
+```
+
 
