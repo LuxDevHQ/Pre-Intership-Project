@@ -19,9 +19,7 @@ path = kagglehub.dataset_download("prasad22/healthcare-dataset")
 print("Path to dataset files:", path)
 ```
 
-You can learn how to set up your API keys here: https://www.kaggle.com/docs/api#authentication
-
-- In case you need help, reach out directly via **internship@luxdevhq.com** or **0798166628**
+You can learn how to set up your API keys here: https://www.kaggle.com/docs/api#authentication In case you need help, reach out directly via **internship@luxdevhq.com** or **0798166628**
 
 ---
 
