@@ -58,11 +58,126 @@ You must:
 - Prepare the dataset for machine learning  
 
 
+**3. Database Setup**
+
+Use PostgreSQL.
+
+You must:
+- Create appropriate tables  
+- Load cleaned data into the database  
+- Avoid duplicate records  
+- Ensure data integrity  
+
+**4. Weekly Machine Learning Training**
+
+🕛 Every Saturday at 12:00 noon  
+
+**Tasks:**
+- Read latest data from the database  
+- Preprocess features  
+- Train a classification model  
+- Evaluate performance  
+- Save the trained model  
+
+**Model Requirements**
+
+You must train with XGBoost and at least one model from the following:
+- Logistic Regression  
+- Decision Tree  
+- Random Forest
+
+**Evaluation Metrics**
+
+You must evaluate your model using:
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+- Confusion Matrix
+
+**5. Model Saving**
+
+Save your trained model using:
+- joblib or pickle  
+
+**6. Build and Deploy a Prediction API**
+
+**Step 1: Build the API**
+
+Use:
+- FastAPI (recommended) or Flask  
+
+Create an endpoint:
+- POST /predict  
+
+**Example Input:**
+
+```json
+{
+  "Age": 45,
+  "Gender": "Male",
+  "Blood Type": "O+",
+  "Medical Condition": "Diabetes",
+  "Billing Amount": 2000.5,
+  "Admission Type": "Emergency",
+  "Insurance Provider": "Cigna",
+  "Medication": "Aspirin"
+}
+```
+
+**Example Output:**
+
+```json
+{
+  "predicted_test_result": "Abnormal"
+}
+```
+
+**Step 2: Push to GitHub**
+
+You must:
+- Create a GitHub repository  
+- Push your complete project  
+
+Include:
+- Source code  
+- requirements.txt  
+- README.md  
+
+Your README must include:
+- Project description  
+- Setup instructions  
+- How to run the API  
+- Example request/response  
+
+**Step 3: Deploy Your API (Mandatory)**
+
+You must deploy your API to a free hosting platform such as:
+- Vercel  
+- Render  
+- Railway  
+- Fly.io  
+
+After deployment:
+- Ensure your API is publicly accessible  
+- Test your `/predict` endpoint online  
+
+**Step 4: Submit Live Project Link**
+
+You must submit:
+- GitHub: https://github.com/your-username/healthcare-ml-project  
+- API: https://your-app.vercel.app/predict  
+
+
 --- 
 - The deployed app should look like the one above: 
 
 <img width="960" height="516" alt="image" src="https://github.com/user-attachments/assets/c2eb6912-d8de-4b78-a67e-d97e57509fe0" />
 
+
+Submit you work to: internship@luxdevhq.com || cc harun@luxdevhq.com and mbaabuharun8@gmail.com 
+
+---
 
 
 
