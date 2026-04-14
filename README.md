@@ -192,7 +192,14 @@ You must submit:
 
 ---
 
-Submit your work to: **internship@luxdevhq.com**  
-CC: **harun@luxdevhq.com** and **mbaabuharun8@gmail.com**
+Submit your work to: **internship@luxdevhq.com**  || cc: **harun@luxdevhq.com** and **mbaabuharun8@gmail.com** 
 
 ---
+
+ >> The deployed app should look like the one below:
+<img width="960" height="516" alt="image" src="https://github.com/user-attachments/assets/c2eb6912-d8de-4b78-a67e-d97e57509fe0" /> 
+
+ >> The folder structure should be like this or close to it: 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a0c65c21-883f-427c-96c2-69c59bc66183" />
+
+
