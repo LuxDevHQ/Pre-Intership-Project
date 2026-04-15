@@ -153,11 +153,12 @@ You must:
 
 - Create a GitHub repository
 - Push your complete project
+- Use UV as your project and packages mananger not pip. 
 
 Include:
 
 - Source code
-- `requirements.txt`
+- `pyproject.toml`
 - `README.md`
 
 Your README must include:
